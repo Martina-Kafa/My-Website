@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="./css/something.css">
+    <link rel="stylesheet" href="./css/style.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h3>MaKa Website</h3>
+        <nav>
+            <ul class="links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="./something.html">Something</a></li>
+            </ul>
+        </nav>
+        <a href="/contact.html" class="cta"><button>Get in touch</button></a>
+    </header>
+    <section>
+        <img src="./img/bg.jpg" id="bg">
+        <img src="./img/moon.png" id="moon">
+        <img src="./img/mountain.png" id="mountain">
+        <img src="./img/road.png" id="road">
+        <h2 id="text">Scroll down...</h2>
+    </section>
+    <section id="tekst">
+        <h2>Work in progress...</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur assumenda magni itaque, mollitia nam ex aperiam ullam tempore neque dicta doloribus illo ea quos ipsum, dolor quasi atque cum distinctio maiores aliquam corporis soluta architecto voluptate voluptatibus. Nihil, eum dolores. Quo consectetur error in repellat? Natus ipsam sint pariatur modi blanditiis, doloribus fugit rerum deserunt officia aliquid consequuntur, accusamus qui repellendus? At illum impedit autem! Pariatur sint deleniti quo porro eum numquam atque, laborum molestiae inventore a, at, sapiente suscipit voluptatem cupiditate harum nobis consectetur vero beatae dicta? Provident qui laborum eligendi possimus, cum eius tenetur ut dicta placeat nostrum?
+        </p>
+        <p class="section-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur assumenda magni itaque, mollitia nam ex aperiam ullam tempore neque dicta doloribus illo ea quos ipsum, dolor quasi atque cum distinctio maiores aliquam corporis soluta architecto voluptate voluptatibus. Nihil, eum dolores. Quo consectetur error in repellat? Natus ipsam sint pariatur modi blanditiis, doloribus fugit rerum deserunt officia aliquid consequuntur, accusamus qui repellendus? At illum impedit autem! Pariatur sint deleniti quo porro eum numquam atque, laborum molestiae inventore a, at, sapiente suscipit voluptatem cupiditate harum nobis consectetur vero beatae dicta? Provident qui laborum eligendi possimus, cum eius tenetur ut dicta placeat nostrum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati optio eveniet est minima suscipit nobis distinctio impedit, quaerat soluta vero quasi inventore corrupti excepturi amet fugiat ad incidunt animi architecto.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur assumenda magni itaque, mollitia nam ex aperiam ullam tempore neque dicta doloribus illo ea quos ipsum, dolor quasi atque cum distinctio maiores aliquam corporis soluta architecto voluptate voluptatibus. Nihil, eum dolores. Quo consectetur error in repellat? Natus ipsam sint pariatur modi blanditiis, doloribus fugit rerum deserunt officia aliquid consequuntur, accusamus qui repellendus? At illum impedit autem! Pariatur sint deleniti quo porro eum numquam atque, laborum molestiae inventore a, at, sapiente suscipit voluptatem cupiditate harum nobis consectetur vero beatae dicta? Provident qui laborum eligendi possimus, cum eius tenetur ut dicta placeat nostrum?
+        </p>
+      </section>
+      <footer>
+        <div class="footer-content">
+            <h3>MaKa Website</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023. Designed by <span>MaKa</span></p>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        let bg = document.getElementById("bg");
+        let moon = document.getElementById("moon");
+        let mountain = document.getElementById("mountain");
+        let road = document.getElementById("road");
+        let text = document.getElementById("text");
+
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+
+            bg.style.top = value * 0.5 + 'px';
+            moon.style.left = -value * 0.5 + 'px';
+            mountain.style.top = -value * 0.15 + 'px';
+            road.style.top = value * 0.15 + 'px';
+            text.style.top = value * 1 + 'px';
+        })
+
+    </script>
+</body>
+</html>

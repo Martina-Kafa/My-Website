@@ -54,7 +54,7 @@ button:hover {
     border-radius: 10px;
 }
 
-.fotka1, .fotka2, .fotka3 {
+.fotka1, .fotka2, .fotka3, .fotka4 {
     position: relative;
     opacity: 0.7;
     background-position: center;
@@ -73,12 +73,16 @@ button:hover {
 }
 
 .fotka2 {
-    background-image: url(/img/reflection-lights-mountain-lake-captured-parco-ciani-lugano-switzerland.jpeg);
+    background-image: url(/img/chatApp.jpeg);
     min-height: 400px;
 }
 
 .fotka3 {
-    background-image: url(/img/lake-mountains.jpeg);
+    background-image: url(/img/Quote.jpeg);
+    min-height: 400px;
+}
+.fotka4 {
+    background-image: url(/img/calculator.jpeg);
     min-height: 400px;
 }
 
