@@ -2,18 +2,18 @@
   
   .card {
     width: 50%;
-    padding: 30px 60px 60px 60px;
+    padding: 30px 40px 40px 40px;
     border: 6px solid rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     position: relative;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
   
   .card h2 {
     color: rgba(0, 0, 0, 0.3);
-    font-size: 45px;
+    font-size: 38px;
     text-transform: uppercase;
   }
   
@@ -47,7 +47,7 @@
     height: 90%;
     background: transparent;
     outline: none;
-    font-size: 24px;
+    font-size: 20px;
     padding: 10px 0 10px 20px;
     border: 5px solid rgba(0, 0, 0, 0.3);
     box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
@@ -58,7 +58,7 @@
   .card .row .form-group label {
     line-height: 30px;
     color: #666;
-    font-size: 24px;
+    font-size: 20px;
     margin: 0 0 0 2s0px;
     display: block;
     pointer-events: none;
@@ -76,7 +76,7 @@
   
   .card .row input[type="submit"] {
     border: 5px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
     padding: 10px;
     height: 100%;
     width: 50%;
@@ -86,8 +86,8 @@
     text-transform: uppercase;
     color: #666;
     line-height: 40px;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
     border-radius: 45px;
     transition: all 0.4s;
   }

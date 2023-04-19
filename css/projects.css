@@ -26,14 +26,18 @@ header {
 }
 
 .links li a:hover {
-    color: antiquewhite;
+    color: #282e34;
     font-weight: 500;
     background-color: #fff;
-    border-radius: 10px;
+    transition: 0.5s ease-in;
+    border-radius: 20px;
+    padding: 5px;
+    opacity: 0.7;
 }
 
 .links li a:active {
     text-decoration: none;
+    color: #fff;
 }
 
 button {
@@ -68,21 +72,21 @@ button:hover {
 }
 
 .fotka1 {
-    background-image: url(/img/beautiful-scenery-pathway-forest-with-trees-covered-with-frost.jpeg);
+    background-image: url(../img/beautiful-scenery-pathway-forest-with-trees-covered-with-frost.jpg);
     min-height: 100%;
 }
 
 .fotka2 {
-    background-image: url(/img/chatApp.jpeg);
+    background-image: url(../img/chatApp.jpeg);
     min-height: 400px;
 }
 
 .fotka3 {
-    background-image: url(/img/Quote.jpeg);
+    background-image: url(../img/Quote.jpeg);
     min-height: 400px;
 }
 .fotka4 {
-    background-image: url(/img/calculator.jpeg);
+    background-image: url(../img/calculator.jpeg);
     min-height: 400px;
 }
 
@@ -191,9 +195,64 @@ footer{
     font-weight: 200;
 }
 
+.work {
+    width: 300px;
+    margin-top: -200px;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/beautiful-scenery-pathway-forest-with-trees-covered-with-frost.jpg);
+    opacity: 0.75;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    animation: siam 2s;
+    }
+    
+    .banner .clouds{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      pointer-events: none;
+    }
+    
+    .banner .clouds img{
+      position: absolute;
+      bottom: 0;
+      max-width: 100%;
+      animation: tofu calc(3s*var(--i)) linear infinite;
+    }
+
+    .first-section {
+        background-color: white;
+    }
+    
+    @keyframes tofu{
+      0%{
+        opacity: 0;
+        transform: scale(1);
+      }
+      27%,75%{
+        opacity: 1;
+      }
+      100%{
+        opacity: 0;
+        transform: scale(3);
+    }
+     }
+
 /* disable parallax effect on mobile screens */
 @media(max-width:568px) {
     .fotka1, .fotka2, .fotka3 {
         background-attachment: scroll;
     }
-}
+};
