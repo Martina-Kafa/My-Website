@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background: #56595b;
+    min-height: 1500px;
+}
+
+#text {
+    position: relative;
+    color:antiquewhite;
+    font-size: 7em;
+    z-index: 1;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+section:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#666, transparent);
+    z-index: 100;
+}
+section:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #666;
+    mix-blend-mode: color;
+    z-index: 101;
+    opacity: 0.6;
+}
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#road {
+    z-index: 11;
+}
+
+#tekst{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+   color: #fff;
+   padding: 10px;
+   background-color: transparent;
+   font-size: 15px;
+   font-family: "Lato", sans-serif;
+   font-weight: 400;
+   line-height: 1.8em;
+}
+  
+
+  .section-dark {
+    opacity: 0.7;
+    border-radius: 5px;
+  }
+
+  p {
+    margin: 10px;
+  }
