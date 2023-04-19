@@ -77,17 +77,17 @@ button:hover {
 }
 
 .fotka1 {
-    background-image: url(/img/beautiful-scenery-pathway-forest-with-trees-covered-with-frost.jpg);
+    background-image: url(../img/beautiful-scenery-pathway-forest-with-trees-covered-with-frost.jpg);
     min-height: 100%;
 }
 
 .fotka2 {
-    background-image: url(/img/reflection-lights-mountain-lake-captured-parco-ciani-lugano-switzerland.jpeg);
+    background-image: url(../img/reflection-lights-mountain-lake-captured-parco-ciani-lugano-switzerland.jpeg);
     min-height: 400px;
 }
 
 .fotka3 {
-    background-image: url(/img/lake-mountains.jpeg);
+    background-image: url(../img/lake-mountains.jpeg);
     min-height: 400px;
 }
 
