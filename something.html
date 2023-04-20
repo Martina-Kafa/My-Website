@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/something.css">
     <link rel="stylesheet" href="./css/style.css"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,9 +19,9 @@
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./projects.html">Projects</a></li>
                 <li><a href="./something.html">Something</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-        <a href="./contact.html" class="cta"><button>Get in touch</button></a>
     </header>
     <section>
         <img src="./img/bg.jpg" id="bg">
@@ -63,9 +64,9 @@
         window.addEventListener('scroll', function(){
             var value = window.scrollY;
 
-            bg.style.top = value * 0.5 + 'px';
-            moon.style.left = -value * 0.5 + 'px';
-            mountain.style.top = -value * 0.15 + 'px';
+            bg.style.top = value * 0.4 + 'px';
+            moon.style.left = -value * 0.4 + 'px';
+            mountain.style.top = -value * 0.10 + 'px';
             road.style.top = value * 0.15 + 'px';
             text.style.top = value * 1 + 'px';
         })
