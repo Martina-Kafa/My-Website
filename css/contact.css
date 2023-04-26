@@ -44,3 +44,27 @@
 input {
   height: 20px;
 }
+
+
+@media(max-width:568px) {
+  form {
+    width: 76vw;
+    margin: 0 auto;
+    height: 300px;
+  }
+  .message-us textarea {
+    height: 80px;
+  }
+  .naslov {
+    margin-left: 150px;
+  }
+  
+  .contact-info, .message-us {
+    flex-basis: 25%;
+    margin-bottom: 30px;
+  }
+  input {
+    height: 17px;
+  }
+ 
+}
